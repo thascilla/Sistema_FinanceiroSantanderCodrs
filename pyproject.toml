@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "source"
+version = "0.1.0"
+description = ""
+authors = ["carlos <carducaldeira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyfiglet = "^1.0.2"
+tqdm = "^4.66.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.3"
+pymdown-extensions = "^10.7"
+mkdocs-material = "^9.5.4"
+mkdocstrings = {extras = ["python"], version = "^0.24.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
